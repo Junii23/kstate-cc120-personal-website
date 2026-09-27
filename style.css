@@ -1,0 +1,186 @@
+body {
+  text-align: center;
+  justify-content: center;
+  font-family: "Brush Script MT", cursive;
+  color: #552455;
+  background-color: #f7d8e3;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+img {
+  border: 4px solid #552455;
+  border-radius: 12px;
+  width: 40vw;
+  height: auto;
+}
+
+.cute {
+  margin-top: 0px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#autobiography-body {
+  border: 2px dashed #552455;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a, .apply-link-style {
+  font-weight: bold;
+  background-color: #7b347b;
+  border-radius: 2px;
+  margin-top: 8px;
+  color: #f7d8e3;
+  font-style: italic;
+  box-shadow: 0px 1px 6px 2px #7b347b;
+}
+
+.information-collection {
+  border: 2px dashed #552455;
+  width: fit-content;
+  margin-inline: auto;
+  text-align: center;
+  padding: 8px;
+}
+
+hr {
+  margin-top: 10px
+}
+
+ul,
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.trip-container {
+  border: 4px solid #552455;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.trip-container h2 {
+  text-decoration: underline;
+}
+
+.trip-container img {
+  border: 2px solid #552455;
+  border-radius: 24px;
+}
+
+.trip-container .trip-dates {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.resume-experience h3 {
+  margin-bottom: 2px;
+}
+
+.date-range {
+  font-family: monospace;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 6px;
+  border-left: 2px solid #552455;
+  background-color: #E5C9D4;
+  width: fit-content;
+}
+
+.education-experience h2 {
+  margin-bottom: 2px;
+}
+
+.education-experience .education-degree {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.skill-container {
+  background-color: #E5C9D4;
+  width: fit-content;
+  margin-inline: auto;
+  text-align: center;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.mb0 {
+  margin-bottom: 0px;
+}
+
+.mb2 {
+  margin-bottom: 2px;
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.mb6 {
+  margin-bottom: 6px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+header {
+  background-color: #E5C9D4;
+  margin: 0px;
+  border-bottom: 2px solid black;
+  padding-top: 20px;
+  margin-bottom: 4px;
+  padding-bottom: 8px;
+}
+
+#resume-main>section {
+  max-width: 90ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume-main>hr {
+  max-width: 100ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  max-width: 75vw;
+  margin: auto;
+}
+
+@media (orientation: portrait) {
+  main {
+    max-width: 90vw;
+  }
+  img {
+    width: 60vw;
+  }
+}
+
+.nav-item {
+  margin-left: 8px;
+}
+
+.dark-mode {
+  background-color: #421c42;
+  color: #f7d8e3;
+}

@@ -1,0 +1,11 @@
+Things I did to make this project more accessible:
+
+Linked images & their caption using the figure and figcaption tags.
+Replaced the header's div with an actual header tag.
+Replaced the main content's div with a main tag.
+Wrapped navigational links inside a nav tag.
+Grouped closely related content with section tags.
+Made the sizing in resume.html much more consistent using css styling (max-wdith: 90ch, margin: auto).
+Fixed the some links clipping into themselves when in portrait mode.
+Fixed images sometimes being too big then too small, now they react to protrait/landscape mode.
+100% accessibility and best practices scored within Chrome Lighthouse
